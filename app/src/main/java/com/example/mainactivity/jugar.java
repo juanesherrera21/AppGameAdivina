@@ -53,7 +53,7 @@ public class jugar extends AppCompatActivity {
             public void onClick(View v) {
                 String nombre=usuario_pokemon.getText().toString().toLowerCase();
                 if(nombre.equals(nombre_pokemon[numero_generado])){
-
+                    int n=1;
                     establecer_pokemon(numero_generado);
                     esperar();
                 }else{
