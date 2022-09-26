@@ -24,10 +24,18 @@ public class jugar extends AppCompatActivity {
     private int numero_generado=0;
     private ImageView mi_imagen;
 
+    public void onClick(View view){
 
+        Intent miIntent = new Intent(jugar.this,MainActivity.class);
 
+        startActivity(miIntent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
+
+
 
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -99,4 +107,6 @@ public class jugar extends AppCompatActivity {
 
         return (int)(Math.random()*nombre_pokemon.length);
     }
+
+
 }
