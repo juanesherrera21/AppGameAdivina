@@ -18,6 +18,7 @@ public class jugar extends AppCompatActivity {
     private String[] nombre_pokemon = {"abra", "dragonair", "gengar", "jumlpuff", "larvitar", "machoke", "pidgeotto", "sceptyle", "seedot", "swampert", "typhlosion", "zubat"};
     private String[] sombre_pokemon = {"s_abra", "s_dragonair", "s_gengar", "s_jumlpuff", "s_larvitar", "s_machoke", "s_pidgeotto", "s_sceptyle", "s_seedot", "s_swampert", "s_typhlosion", "s_zubat"};
     private int intentos = 3;
+    private int x=0;
     private Button aceptar;
     private TextView mensaje_intentos,mensaje_cuenta;
     private EditText usuario_pokemon;
